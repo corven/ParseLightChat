@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">lightchat</string>
+    <string name="type_msg">Сообщение</string>
+
+    <string name="drawer_open">Открыть</string>
+    <string name="drawer_close">Закрыть
+    </string>
+
+    <string name="or">или</string>
+    <string name="email">Email</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="log_in">Вход</string>
+    <string name="forgot_my_pwd">Я забыл свой пароль</string>
+    <string name="my_chats">Мой чат</string>
+    <string name="all_chats">Все чаты</string>
+    <string name="search">Поиск</string>
+    <string name="to">Для:</string>
+    <string name="edit">Редактирование</string>
+    <string name="new_chat">Новый чат</string>
+    <string name="alert_wait">Подождите...</string>
+    <string name="err_fields_empty">Пожалуйста, заполните все поля.</string>
+    <string name="err_singup">Ошибка при регистрации:</string>
+    <string name="err_login">Ошибка при входе:</string>
+    <string name="err_users">Ошибка при поиске пользователей:</string>
+    <string name="alert_loading">Загрузка...</string>
+    <string name="msg_no_user_found">Нет пользователей</string>
+    <string name="action_settings">Настройки</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llaa"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/pad_10dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/chat_bubble_gray"
+        android:paddingBottom="@dimen/pad_5dp"
+        android:paddingLeft="@dimen/pad_chat_item"
+        android:paddingTop="@dimen/pad_5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:id="@+id/lbl1"
+            android:textSize="@dimen/txt_13sp"
+            android:textColor="@color/main_color_gray_dk"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_14sp"
+            android:text="Medium Text"
+            android:id="@+id/lbl2"
+            android:textColor="@color/main_color_gray_dk"
+            android:maxLines="4"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textColor="@color/main_color_gray"
+        android:textSize="@dimen/txt_14sp"
+        android:layout_marginTop="@dimen/pad_5dp"
+        android:layout_marginLeft="@dimen/pad_20dp"/>
+</LinearLayout>
